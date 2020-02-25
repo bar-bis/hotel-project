@@ -4,6 +4,24 @@ body {
     margin-top: 0;
 }
 
+.main-menu {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.main-menu a {
+    padding: 4px 6px;
+    font-size: 18px;
+    color: #17233d;
+    text-decoration: none;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 3vw;
+}
+
 .main-header {
     background: url(../images/tło_nagłówka.jpg) no-repeat center;
     background-size: cover;
