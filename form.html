@@ -4,27 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularz</title>
+    <title>Form</title>
     <link type="text/css" href="Assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="main-nav">
         <ul class="main-menu">
-            <a>
+            <a href="index.html">
                 <li>Start</li>
             </a>
             <a>
-                <li>O nas</li>
+                <li>About</li>
             </a>
             <a>
-                <li>Cennik</li>
+                <li>Prices</li>
             </a>
             <a href="form.html">
-                <li>Rezerwacja</li>
+                <li>Reservation</li>
             </a>
             <a class="right">
-                <li>Kontakt</li>
+                <li>Contact</li>
             </a>
         </ul>
     </nav>
@@ -33,15 +33,30 @@
             <img src="Assets/images/1246280_16061017110043391702.jpg" class="header-picutre" />
         </div>
         <div class="header-text">
-            <h2 class="header-heading">Strona hotelu</h2>
+            <h2 class="header-heading">Hotel website</h2>
             <p class="header-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, placeat.</p>
         </div>
     </header>
     <div class="main-heading">
-        <h2>Formularz</h2>
+        <h2>Form</h2>
     </div>
-    <div class="form">
-
+    <div>
+        <form class="reservation-form">
+            <label for="fname">First name:</label><br>
+            <input class="booking" type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input class="booking" type="text" id="lname" name="lname"><br>
+            <label for="date">Date</label><br>
+            <input class="booking" type="date" id="date" name="date"><br>
+            <label for="room">Room type:</label>
+            <input class="radio-room" type="radio" id="small-r" name="room" value="small-r">
+            <label class="radio-room" for="small-r">Small room</label>
+            <input class="radio-room" type="radio" id="big-r" name="room" value="big-r">
+            <label class="radio-room" for="big-r">Big room</label>
+            <input class="radio-room" type="radio" id="middle-r" name="room" value="middle-r">
+            <label class="radio-room" for="middle-r">Medium-sized room</label>
+            <button type="submit" class="reserve book">Book</button>
+        </form>
     </div>
 
 

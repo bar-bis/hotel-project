@@ -13,7 +13,6 @@ let big = new Room(7, 3, true, true);
 
 //small rooms
 
-
 const small_rooms = 'Liczba pokoi: ' + small.number;
 const room_sr = document.getElementById('small-rooms');
 room_sr.textContent = small_rooms;
@@ -54,7 +53,6 @@ room_mb.textContent = medium_booked + medium_available;
 let room_mt = document.getElementById('medium_icon_tv').classList.add('fa-check');
 
 let room_ma = document.getElementById('medium_icon_acc').classList.add('fa-check');
-
 
 //small reservation and canceling
 let small_reserve = document.getElementById('small-reserve');
